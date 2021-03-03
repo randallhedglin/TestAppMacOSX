@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<application xmlns="http://ns.adobe.com/air/application/18.0">
+
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	<copyright>© 2015 WaveBreak Software LLC</copyright>
+	<customUpdateUI>false</customUpdateUI>
+	<description>App for testing (as the name implies)</description>
+	<filename>TestAppMacOSX</filename>
+	<id>com.wb.software.TestAppMacOSX</id>
+	<installFolder>WaveBreak Software</installFolder>
+	<name>Test App</name>
+	<programMenuFolder>Test App</programMenuFolder>
+	<versionLabel>1.0.0</versionLabel>
+	<versionNumber>1.0.0</versionNumber>
+	
+	<extensions>
+        <extensionID>com.wb.software.MacOSXANE</extensionID>
+    </extensions>
+
+	<!-- <icon>
+	
+		<image16x16></image16x16>
+		<image29x29></image29x29>
+		<image32x32></image32x32>
+		<image36x36></image36x36>
+		<image48x48></image48x48>
+		<image50x50></image50x50>
+		<image57x57></image57x57>
+		<image58x58></image58x58>
+		<image72x72></image72x72>
+		<image100x100></image100x100>
+		<image114x114></image114x114>
+		<image128x128></image128x128>
+		<image144x144></image144x144>
+		<image512x512></image512x512>
+		<image1024x1024></image1024x1024>
+	
+	</icon> -->
+
+	<initialWindow>
+	
+		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
+        <depthAndStencil>false</depthAndStencil>
+		<maximizable>true</maximizable>
+		<minimizable>true</minimizable>
+		<minSize>640 480</minSize>
+        <renderMode>direct</renderMode>
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+		<resizable>true</resizable>
+		<systemChrome>standard</systemChrome>
+		<title>Test App</title>
+		<visible>true</visible>
+
+    </initialWindow>
+
+</application>
